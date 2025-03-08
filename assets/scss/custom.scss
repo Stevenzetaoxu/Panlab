@@ -31,9 +31,9 @@ p, li {
 }
 
 // Limit image size within articles
-.featured-image {
-  max-width: 70% !important;    // 限制特色图片大小
+.article-container .featured-image {
+  max-width: 70% !important;
   height: auto !important;
   display: block !important;
-  margin: 0 auto !important;    // 居中
+  margin: 0 auto !important;
 }
