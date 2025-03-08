@@ -1,0 +1,38 @@
+// assets/scss/custom.scss
+
+// Center page headers
+.universal-wrapper h1 {
+  text-align: center;
+}
+
+// Center CTA buttons
+.cta-group {
+  justify-content: center;
+}
+
+// Adjust page width
+.article-container {
+  max-width: 90% !important;
+  width: 90% !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin: 0 auto !important;
+}
+
+// Keep titles away from edges
+.article-container h1 {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+// Set font size for body text only
+p, li {
+  font-size: 14px !important;
+}
+
+// Limit image size within articles
+.article-container img {
+  max-width: 100% !important;  // 图片不超过容器宽度
+  height: auto !important;     // 保持比例
+  display: block !important;   // 避免浮动问题
+}
